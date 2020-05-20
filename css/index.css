@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  padding: 0;
+  margin: 0;
+}
+#timeline {
+  display: flex;
+}
+#timeline:hover .item {
+  width: 16.6666667%;
+}
+
+#timeline > #a {
+  background-color: #FD5901;
+}
+
+#timeline > #b {
+  background-color: #F78104;
+}
+
+#timeline > #c {
+  background-color: #FAAB36;
+}
+
+#timeline > #d {
+  background-color: #249EA0;
+}
+
+#timeline > #e {
+  background-color: #008083;
+}
+
+#timeline > #f {
+  background-color: #005F60;
+}
+
+.item {
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  width: 25%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+.item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.item:after {
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.item:hover {
+  width: 30% !important;
+}
+
+.item:hover:after {
+  opacity: 0;
+}
+.item:hover:before {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+.item:hover .conteudo {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.75s ease 0.5s;
+}
+
+.item:hover .ano {
+  top: 45%;
+  transition: all 0.75s ease 0.5s;
+}
+
+.conteudo {
+  transform: translateY(25px);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 0 1.618em;
+  top: 50%;
+  opacity: 0;
+  animation: all ease 0.3s;
+}
+.conteudo h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.conteudo p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+
+.conteudo a {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  padding: 2vh;
+  border-radius: 40px;
+}
+
+.ano {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+.ano p {
+  font-family: 'Abril Fatface', cursive;
+  color: #353839;
+  font-weight: 100;
+  font-size: 1.728rem;
+  line-height: 0;
+}
+
+.item:hover .ano p {
+  color: white;
+  transition: all ease-in 0.7s;
+}
+
+p.cabecalho {
+  font-weight: 400;
+}
