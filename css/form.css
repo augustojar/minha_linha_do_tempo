@@ -4,12 +4,20 @@
 body {
 	margin:0;
 	font-family: 'Comfortaa', cursive;
-  	background-color:#F78104;
+  	background-color:#FAAB36;
   	color:#353839;
 }
 
 body.segundo {
-	background-color: #FAAB36;
+	background-color: #249EA0;
+}
+
+body.terceiro {
+	background-color: #008083;
+}
+
+body.quarto {
+	background-color: #005F60;
 }
  
 h1 {
@@ -24,7 +32,7 @@ h1 {
 }
 
 span#titulo {
-	color: white
+  color: white
 }
 
 h2 {
@@ -47,7 +55,7 @@ p {
 #barra {
 	position:relative;
 	width:90%;
-	transform: translateX(35%);
+	transform: translateX(15%);
 	height:100px;
 	margin-top:65px;
 }
@@ -96,6 +104,10 @@ p {
 	position:relative;
 }
 
+#barra li div#grande{
+	top:40px;
+}
+
 #barra li .texto-barra {
 	position:absolute;
 	width:100%;
@@ -114,7 +126,7 @@ p {
 	height:6px;
 	background:#353839;
 	margin:auto;
-	border:solid 7px #F78104;
+	border:solid 7px #FAAB36;
 	border-radius:50%;
 	margin-top:40px;
 	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
@@ -122,7 +134,15 @@ p {
 }
 
 #barra li.segundo:after{
-	border:solid 7px #FAAB36;
+	border:solid 7px #249EA0;
+}
+
+#barra li.terceiro:after{
+	border:solid 7px #008083;
+}
+
+#barra li.quarto:after{
+	border:solid 7px #005F60;
 }
 
 #barra li:hover:after {
@@ -136,7 +156,7 @@ p {
 #barra #linha {
 	width:80%;
 	margin:auto;
-	background: #F78104;
+	background: #FAAB36;
 	height:6px;
 	position:absolute;
 	left:10%;
@@ -147,8 +167,17 @@ p {
 }
 
 #barra #linha.segundo {
-	background-color: #FAAB36;
+	background-color: #249EA0;
 }
+
+#barra #linha.terceiro {
+	background-color: #008083;
+}
+
+#barra #linha.quarto {
+	background-color: #005F60;
+}
+
 
 #barra #progresso-linha {
 	content:" ";

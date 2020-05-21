@@ -15,7 +15,6 @@ $(".passo1").click( function() {
 $(".passo2").click( function() {
 	$("#progresso-linha").css("width", "25%");
 	$(".nascimento").addClass("ativa").siblings().removeClass("ativa");
-	$(".nascimento").addClass("ativa").siblings().removeClass("ativa");
 	$("body").addClass("segundo").removeClass("terceiro")
 	$("li").addClass("segundo").removeClass("terceiro")
 	$("div").addClass("segundo").removeClass("terceiro")

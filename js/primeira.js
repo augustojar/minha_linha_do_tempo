@@ -15,8 +15,15 @@ $(".passo1").click( function() {
 $(".passo2").click( function() {
 	$("#progresso-linha").css("width", "25%");
 	$(".nascimento").addClass("ativa").siblings().removeClass("ativa");
-	$(".nascimento").addClass("ativa").siblings().removeClass("ativa");
 	$("body").addClass("segundo").removeClass("terceiro")
 	$("li").addClass("segundo").removeClass("terceiro")
 	$("div").addClass("segundo").removeClass("terceiro")
+});
+
+$(".passo3").click( function() {
+	$("#progresso-linha").css("width", "50%");
+	$(".aniversario").addClass("ativa").siblings().removeClass("ativa");
+	$("body").addClass("terceiro").removeClass("segundo")
+	$("li").addClass("terceiro").removeClass("segundo")
+	$("div").addClass("terceiro").removeClass("segundo")
 });

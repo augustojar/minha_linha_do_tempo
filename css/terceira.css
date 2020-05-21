@@ -4,17 +4,14 @@
 body {
 	margin:0;
 	font-family: 'Comfortaa', cursive;
-  	background-color:#FD5901;
+  	background-color:#249EA0;
   	color:#353839;
 }
 
 body.segundo {
-	background-color: #F78104;
+	background-color: #008083;
 }
 
-body.terceiro {
-	background-color: #FAAB36;
-}
  
 h1 {
 	font-family: 'Abril Fatface', cursive;
@@ -50,7 +47,7 @@ p {
 #barra {
 	position:relative;
 	width:90%;
-	transform: translateX(25%);
+	transform: translateX(35%);
 	height:100px;
 	margin-top:65px;
 }
@@ -121,7 +118,7 @@ p {
 	height:6px;
 	background:#353839;
 	margin:auto;
-	border:solid 7px #FD5901;
+	border:solid 7px #249EA0;
 	border-radius:50%;
 	margin-top:40px;
 	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
@@ -129,11 +126,7 @@ p {
 }
 
 #barra li.segundo:after{
-	border:solid 7px #F78104;
-}
-
-#barra li.terceiro:after{
-	border:solid 7px #FAAB36;
+	border:solid 7px #008083;
 }
 
 #barra li:hover:after {
@@ -147,7 +140,7 @@ p {
 #barra #linha {
 	width:80%;
 	margin:auto;
-	background: #FD5901;
+	background: #249EA0;
 	height:6px;
 	position:absolute;
 	left:10%;
@@ -158,11 +151,7 @@ p {
 }
 
 #barra #linha.segundo {
-	background-color: #F78104;
-}
-
-#barra #linha.terceiro {
-	background-color: #FAAB36;
+	background-color: #008083;
 }
 
 #barra #progresso-linha {
