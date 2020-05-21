@@ -43,25 +43,28 @@ body {
   width: 100vw;
   height: 100vh;
   background: #fff;
-  display:table;
 }
 
 .apresentacao {
   text-align: center;
-  vertical-align:middle;
-  display:table-cell;
+  padding-top: 170px;
+  
 }
 
-.apresentacao h1 {
+#curriculo .apresentacao h1 {
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
   font-weight: 100;
+  font-size: 4em;
+  max-width: 100px;
+  margin: auto;
 }
 
 .apresentacao p {
-  max-width: 1000px;
-  margin: auto;
   font-weight: 500;
+  font-size: 1.2em;
+  max-width: 1050px;
+  margin: auto;
 }
 
 .item {
