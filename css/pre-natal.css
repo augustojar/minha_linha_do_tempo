@@ -5,7 +5,8 @@ body {
 	margin:0;
 	font-family: 'Comfortaa', cursive;
   	background-color:#FD5901;
-  	color:#353839;
+	  color:#353839;
+	  overflow-x: hidden;
 }
 
 h1 {
