@@ -39,6 +39,31 @@ body {
   background-color: #005F60;
 }
 
+#curriculo {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display:table;
+}
+
+.apresentacao {
+  text-align: center;
+  vertical-align:middle;
+  display:table-cell;
+}
+
+.apresentacao h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.apresentacao p {
+  max-width: 1000px;
+  margin: auto;
+  font-weight: 500;
+}
+
 .item {
   transform: translate3d(0, 0, 0);
   position: relative;
