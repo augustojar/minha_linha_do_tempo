@@ -8,5 +8,31 @@
 </head>
 <body>
   <h1>Fale Comigo</h1>
+    <div class="contato">
+        <form class="contato">
+        <div class="input1-validador" data-validate = "Nome é obrigatório!">
+          <input class="input1" type="text" name="nome" placeholder="Nome">
+        </div>
+
+        <div class="input1-validador" data-validate = "Email válido é obrigatório: abc@xyz.com">
+          <input class="input1" type="text" name="email" placeholder="Email">
+        </div>
+
+        <fieldset id="sexo">
+          <legend>Sexo:</legend>
+              <input type="radio" name="Sexo" id="Masc"/> <label for="Masc">Masculino</label><br/>
+              <input type="radio" name="Sexo" id="Fem"/> <label for="Fem">Feminino</label>
+        </fieldset> 
+
+        <div class="input1-validador" data-validate = "Assunto é obrigatório!">
+          <input class="input1" type="text" name="assunto" placeholder="Assunto">
+        </div>
+
+        <div class="input1-validador" data-validate = "Mensagem é obrigatória!">
+          <input class="input1" type="text" name="mensagem" placeholder="Mensagem">
+        </div>
+
+    </form>
+    </div>
 </body>
 </html>
