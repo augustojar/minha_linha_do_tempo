@@ -49,7 +49,6 @@ body {
 .apresentacao {
   text-align: center;
   padding-top: 170px;
-  
 }
 
 #curriculo .apresentacao h1 {
@@ -57,7 +56,6 @@ body {
   text-transform: uppercase;
   font-weight: 100;
   font-size: 4em;
-  max-width: 100px;
   margin: auto;
 }
 
