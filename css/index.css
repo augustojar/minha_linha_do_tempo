@@ -17,7 +17,7 @@ body {
 }
 
 #timeline > #a {
-  background-color: #FD5901;
+  background-color: #fd5901;
 }
 
 #timeline > #b {
@@ -181,4 +181,11 @@ body {
 .item:hover .ano p {
   color: white;
   transition: all ease-in 0.7s;
+}
+
+.icon {
+  position: absolute;
+  margin: 0;
+  top: -140px;
+  width: 30px;
 }
