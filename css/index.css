@@ -183,9 +183,14 @@ body {
   transition: all ease-in 0.7s;
 }
 
-.icon {
+.icone {
   position: absolute;
-  margin: 0;
-  top: -140px;
-  width: 30px;
+  opacity: 0;
+  left: calc(50% - 50px);
+  top: 150px;
+}
+
+.item:hover .icone {
+  opacity: 1;
+  transition: all 0.7s ease-in;
 }
