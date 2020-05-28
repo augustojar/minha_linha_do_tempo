@@ -255,8 +255,8 @@ p {
 
 .left {
 	position: absolute;
-	bottom: 630px;
-	left: 70px;
+	bottom: 550px;
+	left: 90px;
 	width: 20px;
 	height: 20px;
 	transform: translateY(-80px) rotate(135deg);
